@@ -14,7 +14,7 @@ namespace MyApp
 {
     public partial class Form1 : Form
     {
-        [DllImport("MyDLL.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi, EntryPoint = "fnMyDLL")]
+        [DllImport("E:\\PROGRAMS\\NTUT_Man Machine System\\Projects\\HW1\\MyDLL\\Debug\\MyDLL.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi, EntryPoint = "fnMyDLL")]
         public extern static int fnMyDLL(int a, int b);
 
         public Form1()
@@ -25,7 +25,7 @@ namespace MyApp
         private void button1_Click(object sender, EventArgs e)
         {
             int a = 10;
-            int b = 20;
+            int b = 50;
             //int c = MyDLL.fnMyDLL(a, b);
             //int c = MyDLL.fnMyDLL(a, b);
             int c = fnMyDLL(a, b);
