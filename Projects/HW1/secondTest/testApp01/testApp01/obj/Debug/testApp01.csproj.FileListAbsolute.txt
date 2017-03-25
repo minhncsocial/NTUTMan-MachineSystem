@@ -1,0 +1,9 @@
+E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\secondTest\testApp01\testApp01\bin\Debug\testApp01.exe.config
+E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\secondTest\testApp01\testApp01\obj\Debug\testApp01.csprojResolveAssemblyReference.cache
+E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\secondTest\testApp01\testApp01\obj\Debug\testApp01.Form1.resources
+E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\secondTest\testApp01\testApp01\obj\Debug\testApp01.Properties.Resources.resources
+E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\secondTest\testApp01\testApp01\obj\Debug\testApp01.csproj.GenerateResource.Cache
+E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\secondTest\testApp01\testApp01\bin\Debug\testApp01.exe
+E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\secondTest\testApp01\testApp01\bin\Debug\testApp01.pdb
+E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\secondTest\testApp01\testApp01\obj\Debug\testApp01.exe
+E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\secondTest\testApp01\testApp01\obj\Debug\testApp01.pdb
