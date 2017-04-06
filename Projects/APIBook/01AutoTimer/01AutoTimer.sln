@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoTimer", "AutoTimer\AutoTimer.vcxproj", "{56712C76-196C-449B-A447-F56A50020874}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testProject01", "testProject01\testProject01.vcxproj", "{F0B2B785-126D-44AE-82C1-19251FDAE5EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56712C76-196C-449B-A447-F56A50020874}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56712C76-196C-449B-A447-F56A50020874}.Debug|Win32.Build.0 = Debug|Win32
+		{56712C76-196C-449B-A447-F56A50020874}.Release|Win32.ActiveCfg = Release|Win32
+		{56712C76-196C-449B-A447-F56A50020874}.Release|Win32.Build.0 = Release|Win32
+		{F0B2B785-126D-44AE-82C1-19251FDAE5EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F0B2B785-126D-44AE-82C1-19251FDAE5EF}.Debug|Win32.Build.0 = Debug|Win32
+		{F0B2B785-126D-44AE-82C1-19251FDAE5EF}.Release|Win32.ActiveCfg = Release|Win32
+		{F0B2B785-126D-44AE-82C1-19251FDAE5EF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
