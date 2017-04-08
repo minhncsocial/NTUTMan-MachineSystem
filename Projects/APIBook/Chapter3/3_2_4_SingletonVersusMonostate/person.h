@@ -1,6 +1,8 @@
 /// \file   person.h
 /// \author minhnc
 /// \brief  An example of Pimpl-Monostate.
+/// \notice because using boost::shared_ptr => add external lib
+/// \notice how to add external lib: Configuration Properties/VC++ Directories/Include Directories: add directory (such as: E:\PROGRAMS\NTUT_Man Machine System\Projects\external;$(IncludePath))
 
 #include <string>
 #include <boost\shared_ptr.hpp>
