@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DateLib", "DateLib\DateLib.vcxproj", "{865E6561-E5BF-402E-9EB2-0BF7F3DB2BFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{865E6561-E5BF-402E-9EB2-0BF7F3DB2BFD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{865E6561-E5BF-402E-9EB2-0BF7F3DB2BFD}.Debug|Win32.Build.0 = Debug|Win32
+		{865E6561-E5BF-402E-9EB2-0BF7F3DB2BFD}.Release|Win32.ActiveCfg = Release|Win32
+		{865E6561-E5BF-402E-9EB2-0BF7F3DB2BFD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
