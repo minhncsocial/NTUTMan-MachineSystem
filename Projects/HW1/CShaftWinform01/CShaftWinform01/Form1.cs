@@ -12,6 +12,7 @@ namespace CShaftWinform01
     public partial class Form1 : Form
     {
         public IntPtr mImg1 = IProcessing_Pimpl.CreatemImage();
+        public IntPtr mImg2 = IProcessing_Pimpl2.CreatecmImage();
         public IntPtr hBitmap1;
 
         public Form1()
@@ -24,8 +25,9 @@ namespace CShaftWinform01
             int a = 10;
             int b = 20;
             int c = IProcessing_Pimpl.testAdd(a, b);
+            int d = IProcessing_Pimpl2.testAdd(a, b);
 
-            textBox1.Text = c.ToString();
+            textBox1.Text = d.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -42,9 +44,9 @@ namespace CShaftWinform01
             pathS = openFileDialog1.FileName;
             char pathC = System.Convert.ToChar(pathS[0]);
 
-            if (IProcessing_Pimpl.Load(mImg1, pathS))
+            if (IProcessing_Pimpl.Load(mImg2, pathS))
             {
-                hBitmap1 = IProcessing_Pimpl.GetBitmap(mImg1);
+                hBitmap1 = IProcessing_Pimpl.GetBitmap(mImg2);
 
                 if (pictureBox1.Image != null) pictureBox1.Image.Dispose();
                 pictureBox1.Image = System.Drawing.Image.FromHbitmap(hBitmap1);
@@ -58,9 +60,11 @@ namespace CShaftWinform01
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int width = IProcessing_Pimpl.GetWidth(mImg1);
+            int width = IProcessing_Pimpl2.GetWidth(mImg2);
+            int height = IProcessing_Pimpl2.GetHeight(mImg2);
 
             textBox2.Text = width.ToString();
+            textBox3.Text = height.ToString();
         }
     }
 }
