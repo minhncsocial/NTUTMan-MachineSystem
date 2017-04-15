@@ -1,9 +1,0 @@
-E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\MyApp\MyApp\bin\Debug\MyApp.exe.config
-E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\MyApp\MyApp\obj\Debug\MyApp.csprojResolveAssemblyReference.cache
-E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\MyApp\MyApp\obj\Debug\MyApp.Form1.resources
-E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\MyApp\MyApp\obj\Debug\MyApp.Properties.Resources.resources
-E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\MyApp\MyApp\obj\Debug\MyApp.csproj.GenerateResource.Cache
-E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\MyApp\MyApp\bin\Debug\MyApp.exe
-E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\MyApp\MyApp\bin\Debug\MyApp.pdb
-E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\MyApp\MyApp\obj\Debug\MyApp.exe
-E:\PROGRAMS\NTUT_Man Machine System\Projects\HW1\MyApp\MyApp\obj\Debug\MyApp.pdb

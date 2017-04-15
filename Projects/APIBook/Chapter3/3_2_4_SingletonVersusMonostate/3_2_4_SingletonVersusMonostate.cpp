@@ -15,6 +15,7 @@
 #define TEST_RECTANGLE		1
 #define TEST_TEMPERATURE	2
 #define TEST_PERSON			3
+#define TEST_LLWEB			4
 #define TEST_OPTION			TEST_PERSON
 
 using namespace std;
@@ -36,11 +37,13 @@ int _tmain(int argc, _TCHAR* argv[])
 #elif TEST_OPTION == TEST_PERSON
 	Person p("Peter");
 	Person pc(p);
-	Person m("MINH");
+	Person m("");
 	cout << "p.name(): " << p.GetName() << endl;	cout << "p.name(): " << p.GetName() << endl;	cout << "m.name(): " << m.GetName() << endl;
 	string mName = "MEOMEO";
 	pc.SetName("Hans");	cout << "pc.setName(\"Hans\");" << endl;	cout << "p.name(): " << p.GetName() << endl;
 	cout << "pc.name(): " << pc.GetName() << endl;
+#elif TEST_OPTION == TEST_LLWEB
+
 #endif
 
 	_getch();

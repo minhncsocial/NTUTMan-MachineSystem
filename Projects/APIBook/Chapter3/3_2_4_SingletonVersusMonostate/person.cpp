@@ -17,7 +17,7 @@ std::string Person::GetName() const
 
 void Person::SetName(const std::string &name) 
 {
-	MakeUnique();
+	//MakeUnique();
 	mImpl->SetName(name);
 }
 

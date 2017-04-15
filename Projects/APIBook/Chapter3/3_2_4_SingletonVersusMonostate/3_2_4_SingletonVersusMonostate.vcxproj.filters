@@ -33,6 +33,9 @@
     <ClInclude Include="personimpl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="LLWeb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -48,6 +51,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="personimpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LLWeb.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

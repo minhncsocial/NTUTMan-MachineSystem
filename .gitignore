@@ -22,6 +22,16 @@ bld/
 [Oo]bj/
 [Ll]og/
 external/
+# Build results C#
+build/
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -68,7 +78,12 @@ artifacts/
 .builds
 *.pidb
 *.svclog
+*.log
 *.scc
+
+# OS generated files #
+.DS_Store*
+Icon?
 
 # Chutzpah Test files
 _Chutzpah*
@@ -114,6 +129,7 @@ _TeamCity*
 _NCrunch_*
 .*crunch*.local.xml
 nCrunchTemp_*
+*.ncrunch*
 
 # MightyMoose
 *.mm.*
@@ -193,6 +209,14 @@ ClientBin/
 *.publishsettings
 node_modules/
 orleans.codegen.cs
+*.Cache
+[Ss]tyle[Cc]op.*
+*.[Pp]ublish.xml
+modulesbin/
+tempbin/
+
+# EPiServer Site file (VPP)
+AppData/
 
 # Since there are multiple workflows, uncomment next line to ignore bower_components
 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
@@ -209,9 +233,28 @@ Backup*/
 UpgradeLog*.XML
 UpgradeLog*.htm
 
+# vim
+*.txt~
+*.swp
+*.swo
+
+# svn
+.svn
+
+# Remainings from resolvings conflicts in Source Control
+*.orig
+
 # SQL Server files
 *.mdf
 *.ldf
+**/App_Data/*.mdf
+**/App_Data/*.ldf
+**/App_Data/*.sdf
+
+#LightSwitch generated files
+GeneratedArtifacts/
+_Pvt_Extensions/
+ModelManifest.xml
 
 # Business Intelligence projects
 *.rdl.data
@@ -251,3 +294,30 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# =========================
+# Windows detritus
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Mac desktop service store files
+.DS_Store
+
+# SASS Compiler cache
+.sass-cache
+
+# Visual Studio 2014 CTP
+**/*.sln.ide
+
+# Visual Studio temp something
+.vs/
+
+# VS 2015+
+*.vc.vc.opendb
+*.vc.db

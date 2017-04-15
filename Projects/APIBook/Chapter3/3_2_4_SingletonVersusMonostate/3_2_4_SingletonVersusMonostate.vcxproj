@@ -76,6 +76,7 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LLWeb.h" />
     <ClInclude Include="Monostate.h" />
     <ClInclude Include="person.h" />
     <ClInclude Include="personimpl.h" />
@@ -84,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3_2_4_SingletonVersusMonostate.cpp" />
+    <ClCompile Include="LLWeb.cpp" />
     <ClCompile Include="Monostate.cpp" />
     <ClCompile Include="person.cpp" />
     <ClCompile Include="personimpl.cpp" />
