@@ -321,3 +321,6 @@ Desktop.ini
 # VS 2015+
 *.vc.vc.opendb
 *.vc.db
+
+CVIPTools +MyDLL
+*.rar
